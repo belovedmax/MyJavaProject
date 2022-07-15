@@ -23,7 +23,7 @@ public class Date {
         System.out.printf("data object construction for data $s%n", this );
     }
     public String toString(){
-        return String.format("%d%d%d", month,day,year);
+        return String.format("%d/%d/%d", month,day,year);
 
     }
 
